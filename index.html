@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YOUR_NAME – Games</title>
+<meta name="description" content="CrushLab 3D, a game by YOUR_NAME.">
+<style>
+:root{--bg:#eef3ff;--ink:#0e1a4a;--soft:#4a5683;--cyan:#0a7ea4;--pink:#c0267d;--hazard:#f5b800;--hazard-ink:#14161c;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#060b22;--ink:#e8edff;--soft:#a5b0dd;--cyan:#5fdcf5;--pink:#f58bc8;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+.stripe{height:14px;background:repeating-linear-gradient(-45deg,var(--hazard) 0 14px,var(--hazard-ink) 14px 28px)}
+main{flex:1;width:100%;max-width:40rem;margin:0 auto;padding:3rem 1.25rem}
+.by{margin:0;color:var(--soft);font-weight:700}
+h1{margin:.2rem 0 .8rem;font:800 clamp(2.4rem,9vw,3.4rem)/1 ui-rounded,"SF Pro Rounded","Arial Rounded MT Bold",system-ui,sans-serif}
+p{max-width:60ch}
+ul{padding:0;list-style:none;margin:2rem 0 0}
+li{padding:.7rem 0;border-top:1px solid color-mix(in srgb,var(--soft) 30%,transparent)}
+a{color:var(--cyan);font-weight:700;text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--pink);outline-offset:2px;border-radius:3px}
+footer{max-width:40rem;width:100%;margin:0 auto;padding:0 1.25rem 2rem;color:var(--soft);font-size:.9rem}
+</style>
+</head>
+<body>
+<div class="stripe" role="presentation"></div>
+<main>
+  <p class="by">A game by YOUR_NAME</p>
+  <h1>CrushLab 3D</h1>
+  <p>Build your own objects, choose what they're made of, then put them under the hydraulic press. Shatter glass, splat jelly, and squeeze your way through endless levels.</p>
+  <ul>
+    <li><a href="privacy.html">Privacy policy</a></li>
+    <li>Contact: <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a></li>
+  </ul>
+</main>
+<footer><p>© 2026 YOUR_NAME</p></footer>
+</body>
+</html>
